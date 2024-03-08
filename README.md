@@ -93,6 +93,7 @@ make -j$(nproc) defconfig download clean world
 ```
 
 The firmware image will be save in `openwrt/bin/targets/ramips/mt76x8/openwrt-ramips-mt76x8-xiaomi_mi-router-3a-squashfs-sysupgrade.bin`.
+[Here](openwrt-ramips-mt76x8-xiaomi_mi-router-3a-squashfs-sysupgrade.bin) is a built image using the above `.config`.
 Upload it to breed.
 OpenWRT should work after an automatic reboot.
 
